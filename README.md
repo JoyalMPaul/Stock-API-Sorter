@@ -1,4 +1,4 @@
-# Stock API Sorter
+# Stock Sorter
 
 ## Project Description
 
