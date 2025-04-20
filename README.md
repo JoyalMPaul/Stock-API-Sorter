@@ -17,7 +17,7 @@ A stock sorter was created using the Finnhub API, with the built-in webbrowser l
 2. Open your preferred code editor and navigate to the "Stock API Sorter\stocks\code_files" directory
 3. Activate the virtual environment by running: venv/scripts/activate
 4. Install the required libraries by running: pip install -r requirements.txt
-5. Follow steps 1 through 4 
+5. Paste your API Key into the ternimal after running step 1. Then, follow steps 1 through 4 
 
 ## Libraries Used
 
