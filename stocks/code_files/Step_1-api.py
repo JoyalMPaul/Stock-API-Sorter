@@ -1,7 +1,8 @@
 import finnhub, json, time, webbrowser
 import pandas as pd
 
-finnhub_client = finnhub.Client(api_key="cv85fg9r01qqdqh3vk80cv85fg9r01qqdqh3vk8g")
+input_api_key = input("Finnhub API Key Here: ")
+finnhub_client = finnhub.Client(api_key=f"{input_api_key}")
 
 def grab_info():
     data = finnhub_client.stock_symbols('US')
