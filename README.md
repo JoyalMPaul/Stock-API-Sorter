@@ -21,12 +21,7 @@ A stock sorter was created using the Finnhub API, with the built-in webbrowser l
 
 ## Libraries Used
 
-Finnhub
-Pandas
-Openpyxl
-Numpy
-Matplotlib
-Yfinance
+Finnhub, Pandas, Openpyxl, Numpy, Matplotlib, Yfinance
 
 ## Extra
 
