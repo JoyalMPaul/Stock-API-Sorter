@@ -1,0 +1,28 @@
+# Stock Sorter
+
+## Project Description
+
+A stock sorter was created using the Finnhub API, with the built-in webbrowser library utilized to display graphs for evaluating stock potential. A Pandas DataFrame was employed to generate an XLSX table, which can be imported as a CSV into Google Sheets. Additionally, histograms of profits and losses were created using the Matplotlib statistics library.
+
+***    
+
+## GUI Design
+
+![image](https://github.com/user-attachments/assets/64b0abee-f3e1-4b08-888d-e7563b69b555)
+
+
+## How to Use
+
+1. ***You must already have a Finnhub account and have an api key. If not, use: https://finnhub.io/register
+2. Open your preferred code editor and navigate to the "Stock API Sorter\stocks\code_files" directory
+3. Activate the virtual environment by running: venv/scripts/activate
+4. Install the required libraries by running: pip install -r requirements.txt
+5. Paste your API Key into the ternimal after running step 1. Then, follow steps 1 through 4 
+
+## Libraries Used
+
+Finnhub, Pandas, Openpyxl, Numpy, Matplotlib, Yfinance
+
+## Extra
+
+If needed, go into range.txt under my_texts folder. The top number is the minimum and the bottom number is the maximum for the companies sorted through so far. I recommend keeping the values at most 60 apart or else the api call limit for Finhubb free tier will be reached, and a error code will be returned. 
