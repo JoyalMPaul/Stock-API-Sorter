@@ -2,7 +2,7 @@ import openpyxl, ast
 
 stock_data = []
 
-### Gets information from the stock list and puts in into a stocks.xlsx document
+### Gets information from the stock list and puts in into a stocks.xlsx document ###
 with open("jsons_needed/chart.json") as f:
     for lines in f:
         actual_dict = ast.literal_eval(lines)
@@ -22,3 +22,6 @@ for stock in stock_data:
 workbook.save('stocks.xlsx')
 
 print("Data written to stocks.xlsx successfully!")
+
+### Get this extention to see next step: Lets you see stocks.xlsx as a CSV file
+### https://marketplace.visualstudio.com/items/?itemName=GrapeCity.gc-excelviewer
