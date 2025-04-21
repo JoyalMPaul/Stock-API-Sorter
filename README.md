@@ -15,7 +15,7 @@ A stock sorter was created using the Finnhub API, with the built-in webbrowser l
 
 1. ***You must already have a Finnhub account and have an api key. If not, use: https://finnhub.io/register
 2. Open your preferred code editor and navigate to the "Stock API Sorter\stocks\code_files" directory
-3. Activate the virtual environment by running: venv/scripts/activate (If not working, use: Unblock-File -Path ".\venv\Scripts\Activate.ps1")
+3. Activate the virtual environment by running: venv/scripts/activate (If not working, use: 'Unblock-File -Path ".\venv\Scripts\Activate.ps1"')
 4. Install the required libraries by running: pip install -r requirements.txt
 5. Download "https://marketplace.visualstudio.com/items/?itemName=GrapeCity.gc-excelviewer" extension to see XLSX as CSV file
 6. Run Steps  
