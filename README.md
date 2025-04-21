@@ -19,10 +19,10 @@ A stock sorter was created using the Finnhub API, with the built-in webbrowser l
 4. Install the required libraries by running: pip install -r requirements.txt
 5. Download "https://marketplace.visualstudio.com/items/?itemName=GrapeCity.gc-excelviewer" extension to see XLSX as CSV file
 6. Run Steps
-   *a. Step 1: py .\Step_1-api.py (Gets stock data)
-   *b. Step 2: py .\Step_2-spreadsheets.py (Puts data into chart)
-   *c. Step 3: py .\Step_3-stocks.xlsx (Makes xlsx file, ** Look at point 5 to view file)
-   *d. Step 4: py .\Step_4-data_chart.py (Makes histogram of profits/loss)
+   6.1. Step 1: py .\Step_1-api.py (Gets stock data)
+   6.2. Step 2: py .\Step_2-spreadsheets.py (Puts data into chart)
+   6.3. Step 3: py .\Step_3-stocks.xlsx (Makes xlsx file, ** Look at point 5 to view file)
+   6.4. Step 4: py .\Step_4-data_chart.py (Makes histogram of profits/loss)
 
 ## Libraries Used
 
