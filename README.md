@@ -1,6 +1,6 @@
 # 📈 Stock Sorter
 
-## *Project Description*
+## Project Description
 
 This is a stock sorter created using the Finnhub API, with the built-in webbrowser library utilized to display graphs for evaluating stock potential. A Pandas DataFrame was employed to generate an XLSX table, which can be imported as a CSV into Google Sheets. Additionally, histograms of profits and losses were created using the Matplotlib statistics library.
 
