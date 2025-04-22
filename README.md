@@ -1,4 +1,4 @@
-# Stock Sorter
+# 📈 Stock Sorter
 
 ## Project Description
 
