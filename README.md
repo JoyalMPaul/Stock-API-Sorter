@@ -31,4 +31,4 @@ Finnhub, Pandas, Openpyxl, Numpy, Matplotlib, Yfinance
 
 ### Extra
 
-If needed, go into range.txt under my_texts folder. The top number is the minimum and the bottom number is the maximum for the companies sorted through so far. I recommend keeping the values at most 60 apart or else the api call limit for Finhubb free tier will be reached, and a error code will be returned. 
+If needed, go into range.txt under my_texts folder. The top number is the minimum and the bottom number is the maximum for the companies sorted through so far. I recommend keeping the values at most 60 apart or else the API call limit for Finhubb free tier will be reached, and a error code will be returned. 
